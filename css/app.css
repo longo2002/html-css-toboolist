@@ -23,3 +23,52 @@ body{
     font-weight: 600;
     padding: 10px 40px;
 }
+
+main{
+    padding: 50px 0;
+}
+
+.container{
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.card{
+    background-color: white;
+    border-radius: 7px;
+}
+
+.card-header{
+    border-bottom: 3px solid #eeeeee;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.card-body{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.card-header, 
+.card-body{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.task-category{
+    font-family: 'Alexandria', sans-serif;
+}
+
+.list-item{
+    margin-bottom: 20px;
+}
+
+.icon{
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    text-align: center;
+}
